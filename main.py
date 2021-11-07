@@ -1,11 +1,6 @@
 import aiogram
-
 from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
-from aiogram.utils import executor
-from aiogram.types import ReplyKeyboardRemove, \
-    ReplyKeyboardMarkup, KeyboardButton, \
-    InlineKeyboardMarkup, InlineKeyboardButton
 import requests
 import os
 
